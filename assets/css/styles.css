@@ -151,6 +151,10 @@ img{
     font-size: var(--h3-font-size);
 }
 
+.section__title_3{
+    font-size: var(--small-font-size);
+}
+
 .section__subtitle{
     display: block;
     font-size: var(--small-font-size);
@@ -159,7 +163,8 @@ img{
 
 .section__title,
 .section__subtitle,
-.section__title_2{
+.section__title_2,
+.section__title_3{
     text-align: center;
 }
 
@@ -173,6 +178,11 @@ img{
 .grid{
     display: grid;
     gap: 1.5rem;
+}
+
+.grid_2{
+    display: grid;
+    gap: 3rem;
 }
 
 .header{
@@ -380,8 +390,23 @@ img{
     background-color: var(--first-color-alt);
 }
 
+.button__2{
+    display: inline-block;
+    background-color: hsl(148, 69%, 61%);
+    color: #fff;
+    padding: .1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
 .button__icon{
     font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button__icon_2{
+    font-size: 3rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
 }
@@ -698,6 +723,27 @@ img{
 button{
     border: 0;
     cursor: pointer;
+}
+
+.alert{
+    text-align: center;
+}
+
+.button-loading{
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
+.button-loading:hover{
+    background-color: #ffcc00;
+}
+
+.d-none{
+    display: none;
 }
 
 .contact__subtitle{

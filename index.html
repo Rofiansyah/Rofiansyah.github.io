@@ -6,7 +6,7 @@
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
+		
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
@@ -682,12 +682,26 @@
 						</div>
 
 						<div>
-							<button type="submit" class="button button--flex">
+							<button type="submit" class="button button--flex button-send">
 								Send Message
 								<i class="uil uil-message button__icon"></i>
 								</button>
+
+							<button type="submit" class="button--flex button-loading d-none">
+								Loading...
+								<i class="uil uil-spinner-alt button__icon"></i>
+								</button>
 						</div>
 					</form>
+				</div>
+
+				<div class="section__title_3 button__2 button--flex container grid_2 d-none">
+					<br>
+					<br>
+					<strong>Thank You!</strong> Your message has been received.
+					<button class="button__2 button--flex">
+						<i class="uil uil-times button__icon_2" id=""></i>
+					</button>
 				</div>
 
             </section>
