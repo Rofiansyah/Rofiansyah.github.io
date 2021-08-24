@@ -497,7 +497,7 @@ img{
     width: 70%;
 }
 
-.skills_java{
+.skills__java{
     width: 30%;
 }
 
@@ -693,6 +693,11 @@ img{
 .contact__title{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+}
+
+button{
+    border: 0;
+    cursor: pointer;
 }
 
 .contact__subtitle{
